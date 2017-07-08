@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "FirefoxModule",
+  "version": "1.0",
+
+  "description": "Description à régider...",
+
+  "icons": {
+    "48": "icons/icon_48px.png"
+  },
+
+  "content_scripts": [
+    {
+        "matches": ["*://*.facebook.com*"],
+        "js": ["content_script.js"]
+    }
+  ]
+
+}
