@@ -1,0 +1,2 @@
+# firefoxModule
+First Firefox module
